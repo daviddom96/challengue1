@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+
+    <head> 
+        <meta charset="UTF-8"> <!-- Diccionario-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Codificador Secreto</title> <!--titulo de la pestaña-->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="challenge.css">
+    </head>
+
+    <header>
+        <h1> <img class="logo" src="imagenes/logo.png"> </h1>
+        <nav id="nombrepagina">Codificador alura</nav>
+    </header>
+
+    <body>
+        <script src="challenge.js"></script>
+        <div class="primer-pagina" >
+            <ul class="elementos">
+                    <li class="instruccion"><p> &#9888 Sin acentos y solo minusculas </p></li>
+
+                    <li ><textarea id="textoOriginal"class="espacioTarea" cols="50" rows="4" name="entradaDeTexto" required placeholder="Por favor ingresa tu texto"></textarea></li>
+
+                    <li class="contenedor-botones">
+                        <button class="boton" type="button" onclick="encriptarTexto()"> Encriptar </button>
+                        <button class="boton" type="button" onclick="desencriptarTexto()"> Desencriptar </button>
+                    </li>
+            </ul>
+
+            </label> <button class="visita" type="button" onclick="visita()"><img id="libro-niño" src="imagenes/libro-niño.webp" alt=""></button>
+        
+        </div>
+       <div class="area contenedor">
+        <div class="areaResultado" id="resultado">
+        </div>
+        </div>
+
+  
+
+       
+        
+
+    </body>
+   
+    <footer>
+        
+        <p class="Copyrigth">&copy Copyrigth Hector David</p>
+    </footer>
+  </body>
+</html>
+
+
+

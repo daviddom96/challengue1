@@ -1,0 +1,144 @@
+header{
+    background-color: #006199;
+    height: 150px;
+    width:100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    height: 125px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+
+#nombrepagina{
+    background: #a9d9df;
+    padding: 10px 333px 10px 20px;
+    border-radius: 33px 0px 0px 33px;
+}
+
+nav{
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    font-size: 40px;
+    font-family:'Times New Roman';
+    color: rgb(0, 0, 0);
+    
+}
+
+.primer-pagina{
+    display: flex;
+    margin: 0 auto;
+    padding:0px;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(21, 50, 47);
+}
+
+.elementos{
+    display: inline-block;
+    background: #a9d9df;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 10px;
+    width: 504.43px;
+    border: 2px solid #000000;
+    height: 504.43px;
+}
+
+.instruccion{
+    padding: 10px;
+    font-size: 15px;
+    text-align:left;
+    color: #000000;
+}
+
+.espacioTarea{
+    
+    width: 95%;
+    box-sizing: border-box;
+    text-align: justify;
+    height: 350px;
+    resize: none;
+    border-radius: 10px;
+    margin: 10px 12.61px;
+    padding: 10px;
+}
+
+.contenedor-botones {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+   
+}
+
+.boton, .visita{
+    width: 40%;
+    box-sizing: border-box;
+    margin: 0 10px;
+    padding: 10px 40px;
+    background:rgb(126, 199, 223);
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.visita{
+    background-color: #a9d9df;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    max-width: 482.22px;
+}
+
+#libro-niño{
+    max-height: 482.22px;
+    max-width: 482.22px;
+}
+
+.boton:hover{
+    background: rgb(253, 149, 3);
+    transform: scale(1.20);
+}
+.visita:hover{
+    background:rgb(253, 149, 3);
+    transform: scale(1.05);
+}
+
+.areacontenedor{
+    background-color: rgb(21, 50, 47);
+}
+.areaResultado {
+    display: block;
+    margin: 20px 20px;
+    padding: 10px;
+    border: 2px solid #000000;
+    background-color: #a9d9df;
+    width: 95%; /* Ocupa todo el ancho disponible dentro del contenedor */
+    text-align: justify; /* Alinea el texto dentro de la textarea */
+    height: 150px; /* Altura de la textarea, ajusta según sea necesario */
+    border-radius: 8px;
+    align-content: center;
+}
+
+footer{
+    text-align: center;
+    background:#006199;
+    padding:40px;
+    height: 60px;
+}
+
+.Copyrigth{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #CCCCCC;
+}
